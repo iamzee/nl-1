@@ -1,0 +1,9 @@
+.story__card {
+    text-decoration: none;
+    color: #333231;
+}
+
+.story__card:hover {
+    color: #ec2227;
+    text-decoration: underline;
+}
