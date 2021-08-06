@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import moment from 'moment';
 
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
@@ -38,7 +39,9 @@ const StoryCard = ({ story, favorites, handleMarkFavorite }) => {
 						</a>
 					</Typography>
 					<Typography variant="body2" color="text.secondary">
-						{`${story.author}  ${story.date}`}
+						{`${story.author}  ${moment(story.date).format(
+							'Do MMM, YY'
+						)}`}
 					</Typography>
 				</CardContent>
 				<CardActions disableSpacing>
