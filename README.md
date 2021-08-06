@@ -24,7 +24,7 @@ npm run build
 
 ## Start
 
-Start the local server at port 3000
+Start the local server at port 3000. Make sure you have access to the demo server at [cors-anywhere](https://cors-anywhere.herokuapp.com/corsdemo) to fix CORS issues.
 
 ```bash
 npm start
