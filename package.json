@@ -11,6 +11,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"parcel": "^2.0.0-rc.0",
 		"@emotion/react": "^11.4.0",
 		"@emotion/styled": "^11.3.0",
 		"@material-ui/core": "^5.0.0-beta.2",
